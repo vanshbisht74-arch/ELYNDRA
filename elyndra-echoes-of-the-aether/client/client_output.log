@@ -1,0 +1,13 @@
+
+> client@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 394 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+11:12:36 PM [vite] hmr update /src/components/AdventureScreen.jsx, /src/index.css
+11:13:00 PM [vite] hmr update /src/components/AnimatedBackground.jsx, /src/index.css
+11:14:57 PM [vite] hmr update /src/index.css, /src/components/CompanionsModal.jsx
+11:15:02 PM [vite] hmr update /src/components/DialoguePanel.jsx, /src/index.css

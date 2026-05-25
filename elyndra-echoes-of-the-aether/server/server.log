@@ -1,0 +1,11 @@
+
+> server@1.0.0 start
+> node server.js
+
+◇ injected env (10) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+  ✨ Elyndra Game Server ✨
+  -------------------------
+  Running on: http://localhost:5000
+  Mode: demo
+  Client Origin: http://localhost:5173
