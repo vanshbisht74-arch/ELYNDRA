@@ -2,12 +2,12 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const backgrounds = {
-  'starfall-reach': '/images/backgrounds/starfall-reach.png',
-  'luminara-harbor': '/images/backgrounds/luminara-harbor.png',
-  'sylvara-wilds': '/images/backgrounds/sylvara-wilds.png',
-  'frostveil-citadel': '/images/backgrounds/frostveil-citadel.png',
-  'astral-hollow': '/images/backgrounds/astral-hollow.png',
-  'default': '/images/backgrounds/starfall-reach.png'
+  'starfall-reach': 'https://images.unsplash.com/photo-1464802686167-b939a6910659?auto=format&fit=crop&q=80&w=2000',
+  'luminara-harbor': 'https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?auto=format&fit=crop&q=80&w=2000',
+  'sylvara-wilds': 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=2000',
+  'frostveil-citadel': 'https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&q=80&w=2000',
+  'astral-hollow': 'https://images.unsplash.com/photo-1506318137071-a8e063b4bcc0?auto=format&fit=crop&q=80&w=2000',
+  'default': 'https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?auto=format&fit=crop&q=80&w=2000'
 };
 
 const AnimatedBackground = ({ regionId = 'starfall-reach' }) => {
