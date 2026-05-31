@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@200;300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #070b14;
+  color: #F8FBFF;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-serif-elegant {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Mythic Visual Styles */
+.glass-mythic {
+  background: rgba(10, 15, 25, 0.75);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(247, 216, 138, 0.1);
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.8),
+    inset 0 0 40px rgba(247, 216, 138, 0.05);
+  position: relative;
+}
+
+.glass-mythic::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid transparent;
+  background: linear-gradient(to bottom right, rgba(247, 216, 138, 0.2), transparent, rgba(110, 231, 245, 0.1)) border-box;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.rune-border {
+  position: relative;
+  padding: 2px;
+  background: linear-gradient(45deg, #F7D88A33, transparent, #6EE7F533);
+}
+
+.mythic-button {
+  background: linear-gradient(to bottom, rgba(247, 216, 138, 0.1), rgba(247, 216, 138, 0.05));
+  border: 1px solid rgba(247, 216, 138, 0.2);
+  color: rgba(247, 216, 138, 0.8);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  font-family: 'Cinzel', serif;
+}
+
+.mythic-button:hover {
+  background: rgba(247, 216, 138, 0.15);
+  border-color: rgba(247, 216, 138, 0.5);
+  color: #F7D88A;
+  box-shadow: 0 0 20px rgba(247, 216, 138, 0.2);
+}
+
+/* Glassmorphism Variants */
+.glass-card {
+  background: rgba(7, 11, 20, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.6);
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Text Glows */
+.text-shadow-mythic {
+  text-shadow: 0 0 20px rgba(247, 216, 138, 0.4), 0 0 40px rgba(110, 231, 245, 0.1);
+}
+
+.text-gold {
+  color: #F7D88A;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(247, 216, 138, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(247, 216, 138, 0.4);
+}
+
+/* Animations */
+@keyframes runePulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); filter: blur(2px); }
+  50% { opacity: 0.8; transform: scale(1.05); filter: blur(0px); }
+}
+
+.animate-rune-pulse {
+  animation: runePulse 4s ease-in-out infinite;
+}
+
+@keyframes aetherFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-aether-flow {
+  background: linear-gradient(270deg, #071426, #102B4E, #071426);
+  background-size: 200% 200%;
+  animation: aetherFlow 10s ease infinite;
+}
+
+.cinematic-vignette {
+  box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.9);
+}
