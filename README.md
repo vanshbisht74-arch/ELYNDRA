@@ -5,7 +5,7 @@
 **ELYNDRA** is a premium, web-based AI fantasy RPG built with a "Mythic UI" design language. It combines cinematic storytelling, original anime-inspired visuals, and a dynamic AI-driven narrative engine.  
  
 ## ✨ Core Features
-
+ 
 - **Mythic UI Design**: Glassmorphism interfaces, luminous skies, and animated magical energy.
 - **AI Dungeon Master**: A backend-powered story engine that reacts to player choices (supports OpenAI, Gemini, and Claude).
 - **NPC Memory System**: Characters like Lyra and Mira Vey remember your decisions, affecting future dialogues and endings.
