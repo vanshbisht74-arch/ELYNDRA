@@ -2,7 +2,7 @@
 
 “Every choice leaves an echo in the world.”
 
-**ELYNDRA** is a premium, web-based AI fantasy RPG built with a "Mythic UI" design language. It combines cinematic storytelling, original anime-inspired visuals, and a dynamic AI-driven narrative engine. 
+**ELYNDRA** is a premium, web-based AI fantasy RPG built with a "Mythic UI" design language. It combines cinematic storytelling, original anime-inspired visuals, and a dynamic AI-driven narrative engine.  
  
 ## ✨ Core Features
 
