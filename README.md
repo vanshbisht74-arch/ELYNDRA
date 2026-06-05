@@ -12,7 +12,7 @@
 - **Aether Paths**: Choose your magical affinity (Solara, Tidelume, Verdance, Zephyra, or Umbralis) to influence the world.
 - **Voice Narration**: Built-in browser TTS for character dialogue with distinct personality presets.
 - **Rich Systems**: Comprehensive Inventory, World Map, Quest Journal, and Achievement systems.
-- **Demo Mode**: Play the full first chapter without an API key.
+- **Demo Mode**: Play the full first chapter without an API key. 
 
 ## 🚀 Tech Stack
 
