@@ -7,7 +7,7 @@
 ## ✨ Core Features
  
 - **Mythic UI Design**: Glassmorphism interfaces, luminous skies, and animated magical energy.
-- **AI Dungeon Master**: A backend-powered story engine that reacts to player choices (supports OpenAI, Gemini, and Claude).
+- **AI Dungeon Master**: A backend-powered story engine that reacts to player choices (supports OpenAI, Gemini, and Claude). 
 - **NPC Memory System**: Characters like Lyra and Mira Vey remember your decisions, affecting future dialogues and endings.
 - **Aether Paths**: Choose your magical affinity (Solara, Tidelume, Verdance, Zephyra, or Umbralis) to influence the world.
 - **Voice Narration**: Built-in browser TTS for character dialogue with distinct personality presets.
